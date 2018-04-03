@@ -17,7 +17,9 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  // write your code here
+  for (var i = 0; i < cart.length; i++) {
+    return ('In your cart, you have ' + `${cart[itemName[i]]} at ${cart[itemPrice[i]]}, ` + i++)
+  }
 }
 
 function total() {
