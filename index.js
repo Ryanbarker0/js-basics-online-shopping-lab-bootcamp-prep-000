@@ -22,7 +22,7 @@ function viewCart() {
     cartContents.push(cart[itemName[i]] + 'at' + cart[itemPrice[i]])
   }
   if (cart.length === 0) {
-   return 'Your cart is empty.'
+   return 'Your shopping cart is empty.'
  } else {
   return `In your cart, you have ${cartContents}`
   }
