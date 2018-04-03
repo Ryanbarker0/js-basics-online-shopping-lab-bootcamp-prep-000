@@ -20,6 +20,7 @@ function viewCart() {
   var cartContents = []
   for (var i = 0; i < cart.length; i++) {
     cartContents.push(itemName[i] + 'at' + itemPrice[i])
+    return cartContents
   }
   if (cart.length === 0) {
    return 'Your shopping cart is empty.'
